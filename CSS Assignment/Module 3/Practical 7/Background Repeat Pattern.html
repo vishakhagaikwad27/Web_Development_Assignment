@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Repeat Pattern</title>
+    <style>
+        .block {
+        height: 120px;
+        margin: 10px;
+        background-image: linear-gradient(red 50%, blue 50%);
+        background-size: 40px 40px;
+        }
+        .repeat { background-repeat: repeat; }
+        .no { background-repeat: no-repeat; }
+        .x { background-repeat: repeat-x; }
+        .y { background-repeat: repeat-y; }
+    </style>
+</head>
+<body>
+    
+        <div class="block repeat"></div>
+        <div class="block no"></div>
+        <div class="block x"></div>
+        <div class="block y"></div>
+</body>
+</html>
