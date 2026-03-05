@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: [start] 1fr [middle] 2fr [end];
+            gap: 10px;
+        }
+
+        .box{
+            background: lightgray;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Column 1</div>
+        <div class="box">Column 2</div>
+    </div>
+</body>
+</html>
