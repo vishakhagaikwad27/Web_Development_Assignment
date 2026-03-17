@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial;
+        }
+
+        header,footer{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(min-width:768){
+            .content{
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div class="content">
+        <div style="flex:1">Content Area</div>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
