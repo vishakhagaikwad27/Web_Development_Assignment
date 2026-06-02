@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Bootstrap Grid -->
+    <div class="container">
+    <div class="row">
+    <div class="col bg-info">1</div>
+    <div class="col bg-warning">2</div>
+    </div>
+    </div>
+
+    <!-- CSS Grid -->
+    <style>
+    .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    }
+    .box{
+    background:lightblue;
+    padding:20px;
+    margin:5px;
+    }
+    </style>
+
+    <div class="grid">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    </div>
+</body>
+</html>
