@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-4">
+    <h3>Address Form</h3>
+
+    <textarea class="form-control mb-2" placeholder="Permanent Address"></textarea>
+
+    <input type="checkbox" onclick="copyAddress()"> Same as Permanent
+
+    <textarea id="current" class="form-control mt-2" placeholder="Current Address"></textarea>
+
+    </div>
+
+    <script>
+    function copyAddress() {
+    let perm = document.querySelector("textarea").value;
+    document.getElementById("current").value = perm;
+    }
+    </script>
+</body>
+</html>
